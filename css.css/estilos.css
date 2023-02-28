@@ -31,9 +31,9 @@ header {
     height: 600px;
     background: #6190E8;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(71, 59%, 78%, 0.356), hsla(167, 75%, 65%, 0.452)), url(../img/portadas.jpg);
+    background: -webkit-linear-gradient(to right, hsla(71, 59%, 78%, 0.356), hsla(167, 75%, 65%, 0.452)), url(../img/waifupeloazul.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(325, 100%, 54%, 0.356), hsla(320, 53%, 80%, 0.452)), url(../img/portadas.jpg);
+    background: linear-gradient(to right, hsla(327, 13%, 17%, 0.24), hsla(320, 53%, 80%, 0.452)), url(../img/waifupeloazul.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -46,7 +46,7 @@ nav {
 }
 
 nav>a {
-    color: rgb(126, 92, 23);
+    color: rgb(60, 216, 29);
     font-weight: 300;
     text-decoration: none;
     font-size: 16px;
@@ -105,8 +105,8 @@ header .textos-header {
 }
 
 .contenido-textos span {
-    background: #4d0686;
-    color: aliceblue;
+    background: #26974c;
+    color: rgb(29, 124, 96);
     border-radius: 50%;
     display: inline-block;
     text-align: center;
@@ -158,7 +158,7 @@ header .textos-header {
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: hsla(273, 91%, 27%, 0.7);
+    background: hsla(143, 98%, 67%, 0.7);
     transition: transform .5s;
     display: flex;
     justify-content: center;
@@ -171,7 +171,7 @@ header .textos-header {
 }
 
 .hover-galeria p {
-    color: antiquewhite;
+    color: rgb(211, 131, 26);
 }
 
 .imagen-port:hover .hover-galeria {
@@ -185,29 +185,34 @@ header .textos-header {
     justify-content: space-evenly;
 }
 
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
 .cards .card {
-    background: #4d0686;
+    background: #1facb1;
     display: flex;
     width: 46%;
     height: 200px;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 5px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 37px;
+    box-shadow: 0 0 6px 0 rgba(192, 4, 4, 0.6);
 }
 
 .cards .card img {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     object-fit: cover;
-    border: 3px solid #fff;
+    border: 3px solid rgb(174, 0, 255);
     border-radius: 50%;
     display: block;
 }
 
 .cards .card>.contenido-texto-card {
     width: 60%;
-    color: #fff;
+    color: rgb(22, 39, 189);
 }
 
 .cards .card>.contenido-texto-card p {
@@ -218,7 +223,7 @@ header .textos-header {
 /* our team */
 
 .about-sevicees {
-    background: #fff;
+    background: rgb(199, 26, 26);
     padding-bottom: 30px;
 }
 
@@ -274,7 +279,7 @@ header .textos-header {
 }
 
 .content-foo h4 {
-    color: rgb(201, 30, 30);
+    color: rgb(169, 253, 13);
     border-bottom: 3px solid #4d0686;
     padding-bottom: 5px;
     margin-bottom: 1px;
@@ -368,7 +373,6 @@ header .textos-header {
         font-size: 20px;
     }
 
-
     /* About us */
     main .sobre-nosotros{
         padding: 30px 0 60px 0;
@@ -434,3 +438,4 @@ header .textos-header {
         font-size: 20px;
     }
 }
+
